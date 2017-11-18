@@ -7,10 +7,14 @@ Gem::Specification.new do |spec|
   spec.version       = Fried::Core::VERSION
   spec.authors       = ["Fire-Dragon-DoL"]
   spec.email         = ["francesco.belladonna@gmail.com"]
+  spec.licenses      = ["MIT"]
 
   spec.summary       = %q{Holds generic constants shared across fried library set}
   spec.description   = %q{Holds generic constants shared across fried library set}
   spec.homepage      = "https://github.com/Fire-Dragon-DoL/fried-core"
+  spec.metadata      = {
+    "source_code_uri" => "https://github.com/Fire-Dragon-DoL/fried-core"
+  }
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
